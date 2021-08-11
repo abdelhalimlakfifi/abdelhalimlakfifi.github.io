@@ -21,7 +21,10 @@ li {
     font-size: 1em;
     line-height: 1.75em
 }
-
+svg{
+    display: inline-block;
+    align-self: center;
+}
 a:hover {
     text-decoration: none !important;
     color: #333 !important;
@@ -195,8 +198,8 @@ a:hover {
     background-color: white;
     border-style: solid;
     color: black;
-    size: 80px;
-    padding: 12px 30px;
+    size: 10px;
+    padding: 12px 25px;
     cursor: pointer;
     font-size: 20px;
     transition: 0.5s;
