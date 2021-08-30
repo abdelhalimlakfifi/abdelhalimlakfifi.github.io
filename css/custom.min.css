@@ -151,7 +151,8 @@ a:hover {
 }
 .section .container h1 {
     text-transform: uppercase;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
     position: relative
 }
 
@@ -265,8 +266,8 @@ a:hover {
 }
 
 .intro {
-    padding: 95px 0px 70px 0px;
-    overflow-x: hidden
+    padding: 0px 0px 70px 0px;
+    overflow-x: hidden;
 }
 
 .intro #myImg {
@@ -276,7 +277,7 @@ a:hover {
 }
 
 .intro .wrap {
-    margin: 30px 0px
+    margin: 10px 0px
 }
 
 .intro h1:before {
@@ -293,7 +294,7 @@ a:hover {
 }
 
 .work .work-list {
-    margin-left: 0px
+    margin-left: 0px;
 }
 
 .work .work-list li {
@@ -329,13 +330,16 @@ a:hover {
 
 .skills .skill-list li:first-child {
     font-size: 0.9375em;
-    color: #8c8c8c
+    color: #8c8c8c;
 }
 
 .quote {
     background: url(../img/bg.jpg);
     padding: 20px 0px;
-    margin-top: 120px
+    margin-top: 120px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .quote h1 {
